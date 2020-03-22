@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="res/logo.png" alt="logo" width="60">
+        </div>
+
+        <ul class="navbar-links">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="Courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a href="Contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1>courses</h1>
+    </div>
+
+    <div class="courses">
+        <div class="row">
+            <div class="course1 image">
+                
+                <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course2 image">
+                
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course3 image">
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+              </div>  
+        </div>
+        <div class="row">
+            <div class="course4 image">
+                
+                <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course5 image">
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course6 image">
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+              </div>
+        </div>
+        <div class="row">
+            <div class="course7 image">
+                <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course8 image">
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course9 image">
+                  <button class="btnCourses"><a href="#ex1" rel="modal:open">View more</a></button>
+                </div>
+            </div>
+    <form class="courses-form">
+        <br>
+        <h4>Feedback</h4>
+        <div class="buttons">
+            <button onclick="bold()" type="button">B</button>
+             <button onclick="italique()" type="button">I</button>
+             <button onclick="souligne()"type="button">underline</button>
+             <select id="size" onchange="changeSize()">
+                <option>20px</option>
+                <option >30px</option>
+                <option>40px</option>
+               </select>
+               <select id="police" onchange="changePolice()">
+                <option>Arial</option>
+                <option>Verdana</option>
+                <option>Geneva</option>
+               </select>
+        </div>
+        <textarea id="mytext" rows="5" cols="50"></textarea>
+    </form>
+    
+        
+      <div id="ex1" class="modal">
+        <p>This is GoMyCode Track. <br>
+            Each track has its own goal. <br>
+            By adopting this track, you chose your own goal.
+        </p>
+        <a href="#" rel="modal:close">Close</a>
+    </div> 
+</body>
+<script src="css/js/edit.js"></script>
+
+    <script src="css/js/main.js">
+</script>
+
+</html>
